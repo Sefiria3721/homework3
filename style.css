@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: hidden; 
+}
+.container{
+    max-width: 1180px;
+    margin: 0px auto;
+}
+.content{
+    flex: 1 0 auto;
+    margin: 15px;
+}
+img{
+    height: 195px;
+    width: 195px;
+    border-radius: 10px;
+}
+.logo{
+    padding: 40px 0;
+}
+.logo_row{
+    display: flex;
+}
+.logo_image, .logo_dummy{
+    flex: 1;
+}
+.logo_title{
+    font-family: 'Lobster', cursive;
+    color: rgb(158, 33, 33);
+    font-size: 50px;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
+    align-self: center;
+
+}
+.columns{
+    padding: 0px 0px 20px 0px;
+}
+.columns_row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.columns_column{
+    flex: 0 1 50%;
+    margin: 0px 0px 30px 0px;
+}
+.item_row{
+    display: flex;
+    border: 2px solid rgb(226, 223, 223);
+    border-radius: 10px;
+    flex-shrink: 0;
+    width: 550px;
+    padding: 0px 0px 0px 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.item_image{
+    flex: 0 0 160px;
+    align-self: center;
+}
+
+.item_body{
+    flex: 1 1 auto;
+    padding: 0px 8px 0px 10px;
+}
+.item_title{
+    font-size: 24px;
+    line-height: 30px;
+    font-family: 'Lobster', cursive;
+}
+.item_text{
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0px 0px 13px 0px;
+}
+.footer{
+    flex: 0 0 auto;
+}
+.footer_row{
+    display: flex;
+    justify-content: center;
+    margin: 0 15px 15px 15px;
+}
+a{
+    color: rgb(158, 33, 33);
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+}
+p{
+    font-family: 'Noto Serif', serif;
+}
+
